@@ -1,0 +1,239 @@
+/* 全局样式 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* 使用 background-image 属性设置背景图片 */
+  background-image: url("https://imgur.la/images/2025/03/16/ce90a45a3860434c7f69739afb46a784.png");
+  /* 让背景图片覆盖整个元素区域 */
+  background-size: cover;
+  /* 防止背景图片重复显示 */
+  background-repeat: no-repeat;
+  /* 使背景图片在元素中居中显示 */
+  background-position: center;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.search-box {
+  display: flex;
+}
+
+.search-box input {
+  padding: 5px;
+  border: none;
+  border-radius: 3px 0 0 3px;
+}
+
+.search-box button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #ffa500;
+  color: white;
+  border-radius: 0 3px 3px 0;
+}
+
+.user-interaction a {
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.carousel {
+  position: relative;
+  height: 400px;
+  overflow: visible;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.slide p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.carousel-controls button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 5%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.galaxy {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.galaxy img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.mission {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.mission img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.astronomy科普 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.astronomy科普 ul li {
+  margin-bottom: 10px;
+}
+
+.astronomy科普 ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.interactive {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.solar-system {
+  margin-bottom: 20px;
+}
+
+.real-time-data {
+  margin-bottom: 20px;
+}
+
+.comments textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.comments button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffa500;
+  color: white;
+  border-radius: 3px;
+}
+
+.social-sharing {
+  margin-top: 10px;
+}
+
+.social-sharing a {
+  margin-right: 10px;
+}
+
+.social-sharing img {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
