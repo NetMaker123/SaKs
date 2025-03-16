@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>探索SaKs宇宙</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- 头部导航栏 -->
+    <header>
+      <div class="logo">
+        <img
+          src="https://imgur.la/images/2025/03/16/_planet.png"
+          alt="SaKs宇宙网站图标"
+        />
+        <h1>宇宙探索之旅</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">首页</a></li>
+          <li><a href="#">SaKs宇宙</a></li>
+          <li><a href="#">暂无</a></li>
+          <li><a href="#">暂无</a></li>
+          <li><a href="#">暂无</a></li>
+        </ul>
+      </nav>
+      <div class="search-box">
+        <input type="text" placeholder="搜索SaKs的项目" />
+        <button>搜索</button>
+      </div>
+      <div class="user-interaction">
+        <a href="#">登录</a>
+        <a href="#">注册</a>
+        <a href="#">个人中心</a>
+      </div>
+    </header>
+
+    <!-- 轮播图区域 -->
+    <section class="carousel">
+      <div class="slides">
+        <div class="slide">
+          <img
+            src="https://imgur.la/images/2025/03/16/1e06db16469a7c4cbc20b3022434edec.jpg"
+            alt="皮卡丘"
+          />
+          <p>美丽的天空，皮卡丘奔跑</p>
+        </div>
+
+        <div class="slide">
+          <img
+            src="https://imgur.la/images/2025/03/16/41cc2076fdbaafd0e2253844037ebb4e.jpg"
+            alt="皮卡丘1"
+          />
+          <p>大侦探，皮卡丘</p>
+        </div>
+
+        <div class="slide">
+          <img
+            src="https://imgur.la/images/2025/03/16/ce90a45a3860434c7f69739afb46a784.png"
+            alt="行星轨道"
+          />
+          <p>浩瀚星系，隐藏着无数的奥秘</p>
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <button class="prev">&lt;</button>
+        <button class="next">&gt;</button>
+      </div>
+    </section>
+
+    <!-- 主要内容区域 -->
+    <main>
+      <section class="hot-content">
+        <h2>热门内容推荐</h2>
+        <div class="card">
+          <img
+            src="https://imgur.la/images/2025/03/16/life.png"
+            alt="CXK.exe"
+          />
+          <h3>蔡徐坤打篮球</h3>
+          <p>可鼠标拖动，可键盘箭头(上下左右)控制移动</p>
+          <p>
+            <a
+              href="https://pan.baidu.com/s/1IOg2u2U-WtQ-wxqUT3Wasg?pwd=SaKs 提取码: SaKs"
+              download="CXK.exe"
+              >点击下载应用</a
+            >
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="https://imgur.la/images/2025/03/16/5dcea708da2e4a17d9e9cdd39539aa57.png"
+            alt="俄罗斯方块"
+          />
+          <h3>俄罗斯方块</h3>
+          <p>请用键盘箭头(上下左右)控制</p>
+          <a href="https://netmaker123.github.io/rer/俄罗斯方块">点击打开</a>
+        </div>
+        <div class="card">
+          <img
+            src="https://imgur.la/images/2025/03/16/9aff1e30e30d388a941a08c60735c65c.png"
+            alt="爱心"
+          />
+          <h3>跳动的♥</h3>
+          <p>可以用来恋爱分享</p>
+          <a href="https://netmaker123.github.io/SaKsWeb/心动">点击打开</a>
+        </div>
+      </section>
+      <section class="galaxy-intro">
+        <h2></h2>
+        <div class="galaxy">
+          <img src="milky-way.jpg" alt="银河系" />
+          <h3></h3>
+          <p>我们所在的星系，包含数十亿颗恒星</p>
+        </div>
+        <div class="galaxy">
+          <img src="andromeda.jpg" alt="仙女座星系" />
+          <h3>仙女座星系</h3>
+          <p>离我们最近的大型星系</p>
+        </div>
+      </section>
+      <section class="space-exploration">
+        <h2></h2>
+        <div class="mission">
+          <img src="mission1.jpg" alt="探索任务 1" />
+          <h3>旅行者号探测器</h3>
+          <p>旅行者号探测器的星际之旅</p>
+        </div>
+        <div class="mission">
+          <img src="mission2.jpg" alt="探索任务 2" />
+          <h3>嫦娥五号月球探测</h3>
+          <p>嫦娥五号的月球采样返回任务</p>
+        </div>
+      </section>
+      <section class="astronomy科普">
+        <h2>天文科普知识</h2>
+        <ul>
+          <li><a href="#">恒星的生命周期</a></li>
+          <li><a href="#">星座的起源与传说</a></li>
+          <li><a href="#">宇宙微波背景辐射</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- 交互功能区域 -->
+    <section class="interactive">
+      <div class="solar-system">
+        <h2>略</h2>
+        <div id="solar-system-model"></div>
+      </div>
+      <div class="real-time-data">
+        <h2>实时数据展示</h2>
+        <div id="data-chart"></div>
+      </div>
+      <div class="comments">
+        <h2>用户评论与分享</h2>
+        <textarea placeholder="发表你的看法"></textarea>
+        <button>提交评论</button>
+        <div class="social-sharing">
+          <a href="#"
+            ><img
+              src="https://imgur.la/images/2025/03/16/_facebook-one.png"
+              alt="Facebook"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://imgur.la/images/2025/03/16/_twitter.png"
+              alt="Twitter"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://imgur.la/images/2025/03/16/_weibo.png"
+              alt="微博"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 底部信息栏 -->
+    <footer>
+      <p>&copy; 2025 SaKs宇宙 版权所有</p>
+      <p>联系方式：暂无</p>
+      <ul>
+        <li><a href="#">NASA 官网</a></li>
+        <li><a href="#">ESA 官网</a></li>
+      </ul>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
